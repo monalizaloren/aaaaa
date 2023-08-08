@@ -1,0 +1,11 @@
+    <Text style={styles.infoText}>Latitude: {this.state.location.latitude}</Text>
+                            <Text style={styles.infoText}>Longitude: {this.state.location.longitude}</Text>
+                            <Text style={styles.infoText}>Altitude (KM): {this.state.location.altitude}</Text>
+                            <Text style={styles.infoText}>Valocidade (KM/H): {this.state.location.velocity}</Text>
+                        </View>
+                    </ImageBackground>
+                </View>
+            )
+        }
+    }
+}
